@@ -1,0 +1,16 @@
+[2025-04-12 20:15:55] [/workspaces/CS190-L1] source .devcontainer/shell.sh
+[2025-04-12 20:16:02] [/workspaces/CS190-L1] echo "This is a sample text file" > sample.txt
+[2025-04-12 20:16:09] [/workspaces/CS190-L1] git add sample.txt
+[2025-04-12 20:16:22] [/workspaces/CS190-L1] git commit -m "Added sample text file"
+[2025-04-12 20:17:58] [/workspaces/CS190-L1] git push --all
+[2025-04-12 20:18:49] [/workspaces/CS190-L1] tar -czf sample.tar.gz sample.txt
+[2025-04-12 20:18:59] [/workspaces/CS190-L1] tar -xvf sample.tar.gz
+[2025-04-12 20:19:32] [/workspaces/CS190-L1] zip sample.zip sample.txt
+[2025-04-12 20:19:50] [/workspaces/CS190-L1] unzip sample.zip
+[2025-04-12 20:20:11] [/workspaces/CS190-L1] time ./program.sh 100
+[2025-04-12 20:20:23] [/workspaces/CS190-L1] time ./program.sh 10000
+[2025-04-12 20:23:55] [/workspaces/CS190-L1] diff file_a.txt file_b.txt
+[2025-04-12 20:29:12] [/workspaces/CS190-L1] head -n 10 very_large_text_file.txt
+[2025-04-12 20:29:31] [/workspaces/CS190-L1] tail -n 10 very_large_text_file.txt
+[2025-04-12 20:30:00] [/workspaces/CS190-L1] more very_large_text_file.txt
+[2025-04-12 20:30:13] [/workspaces/CS190-L1] less very_large_text_file.txt
